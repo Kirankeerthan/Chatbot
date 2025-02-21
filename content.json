@@ -1,0 +1,142 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello","Hi there","How are you","hey"],
+     "responses": ["Hi, Welcome!",
+                   "Good to see you",
+                   "Hi,Glad you showed up, How are you?",
+                   "Hello my Friend"
+                  ]
+    },
+    
+    {
+        "tag":"thanks",
+        "patterns": ["Thanks","Thank you","Thank's Helpful"],
+        "responses": ["You're Welcome!","Hope you find it useful!","Visit again"]
+    },
+
+    {
+        "tag":"goodbye",
+        "patterns":["Bye","See you Later","GoodBye"],
+        "responses":[
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye, come back again"
+        ]
+    },
+
+    {
+        "tag":"infrastructure",
+        "patterns":["about infrastructure of loyola?","infrastructure of loyola?"],
+        "responses":[
+            "Loyola Academy Degree and PG College is one of the leading higher education institutions renowned for its exceptional education offerings. Loyola Academy provides the students with dynamic learning environment and comprehensive programs."
+        ]
+
+    },
+
+
+    {
+        "tag":"campus",
+        "patterns":["about campus of the college?","how big is campus of loyola?","how big is the campus?"],
+        "responses":["It has 120 classrooms, 47 labs, 25 offices, 7 seminar halls, 2 canteens, 1 indoor stadium, 1 gym and fitness center, 1 library, 2 hostels, 10 play fields and 20 acres of Horticulture research station with a green house."]
+    },
+
+    {
+        "tag":"vision",
+        "patterns":["what is the vision of the college?","what is the vision of Loyola?"],
+        "responses":["To impart higher education with integral formation which involves academic excellence, spritual growth, social commitment and value based leadership."]
+    },
+
+    {
+        "tag":"mission",
+        "patterns":["what is the mission of the college?","mission of loyola"],
+        "responses":["To form men and women for others and mould our students as global citizens with competence, conscience and commitment. Special concern is shown towards the socially and economically underprivileged students."]
+    },
+
+    {
+        "tag":"principal",
+        "patterns":["who is principal of loyola?","principal of loyola"],
+        "responses":["Rev.Fr.Dr.L.Joji Reddy"]
+    },
+
+    {
+        "tag":"vice-principal",
+        "patterns":["who is vice-principal of loyola?","vice-principal of loyola"],
+        "responses":["Rev.Fr.M.Arul Jothi SJ and Rev.Fr.Anthony Prabhu SJ"]
+    },
+
+    {
+        "tag":"schools",
+        "patterns":["what are various schools","about various schools","how many schools are there?"],
+        "responses":["Loyola academy has courses divided into School of Agiculture, the School of Science, the School of Informatics, the School of Food Technology and Nutrition, the School of Commerce, the School of Arts and Humanities and School of Management."]
+    },
+
+    {
+        "tag":"msc",
+        "patterns":["do we have msc","what are the msc courses offered?","msc courses list"],
+        "responses":["M.sc courses are M.C.A(Master in Computer Applications), M.B.A(Master in Business Administration), M.sc Organic Chemistry, M.sc Biotechnology, M.sc Food Technology and Management, M.sc Data Science, M.sc Food Science and Nutrition"]
+    },
+
+    {
+        "tag":"bsc",
+        "patterns":["what are the bsc courses","bsc computer courses","bsc courses"],
+        "responses":["15 B.sc courses are B.sc Chemical Technology, B.sc Hons Agriculture, B.sc Computer Science and Engineering, B.sc Electronics Technology, B.sc Computer Systems and Engineering, B.sc Biotechnology, B.sc Food Technology, B.sc Maths, Stats and Computer Science, B.sc Multimedia and Animation, B.sc Data Science and Data Analytical Engineering, B.sc Compter Science and Cognitive Systems"]
+    },
+
+    {
+        "tag":"b.com",
+        "patterns":["what are the b.com courses?","b.com courses"],
+        "responses":["9 B.com courses B.com Honours, B.com Marketing, B.com Business Studies, B.com Computers, B.com International Accounting and Finance, B.com Hons Strategic Finance, B.com Business Process Management, B.com Business Analytics, B.com Business Information Systems."]
+    },
+
+    {
+        "tag":"bba",
+        "patterns":["Does loyola have bba?","bba courses","about bba"],
+        "responses":["4 B.B.A Courses B.B.A(Bachelor of Business Administration, B.B.A Entrepreneurship Development, B.B.A Retail Operations Management, B.B.A Toursim."]
+    },
+
+    {
+        "tag":"ba",
+        "patterns":["about ba courses","ba courses","what are various ba courses"],
+        "responses":["3 B.A courses B.A.Mass Communication, B.A.Psychology, English and Journalism, B.A.Economics. Public Adminstration and Computer Applications."]
+    },
+
+    {
+        "tag":"clubs",
+        "patterns":["does loyola have clubs?","about clubs","about clubs in loyola"],
+        "responses":["Loyola Academy strives for th holistic development of student. Keeping this in mind, Loyola Academy has brought various clubs aiming for students excellence in not just one but in all fields. Students can choose dance, drama, singing and many more."]
+    },
+
+    {
+        "tag":"nss",
+        "patterns":["does loyola have nss?","about nss","what are the activites nss does?"],
+        "responses":["Loyola Academy motivates and encourages students to volunteer and participate in NSS in a big way to impact social responsibility and national integrity. NSS is managed by the Union Minister of Youth Affairs and sports in collabration with th Union Minstry of Education."]
+    },
+
+    {
+        "tag":"ncc",
+        "patterns":["does loyola has ncc?","about ncc in loyola","what are the parades in which ncc participated?"],
+        "responses":["The NCC is a Tri service organisation, comprising the Army, Navy and Airforce. Loyola Academy encourages students to join in NCC to inculcate National Patriotism. NCC students in loyola have participated in RDC camp, Thal Sainik camp and many more."]
+    },
+
+    {
+        "tag":"placements",
+        "patterns":["about placements","what is the placement percentage?","what are the companies shows up for placements?"],
+        "responses":["Top recruiting companies like JP Morgan, Deloitte, Wipro and many other companies. The average salary package offered to U.G graduates is 3-4 L.P.A and for P.G is 4-5.5 L.P.A and the lowest salary package offered is 1.2 L.P.A"]
+    },
+
+    {
+        "tag":"scholarship",
+        "patterns":["do we have scholarships?","what are the scholarships available","about scholarships"],
+        "responses":["Loyola has been offering management scholarships to deserving students for several years now. Scholarships offered are merit based and are awarded to students who have demonstarted exceptional academic performance in their previous academic year and exceptioanl attendance throughout the academic year"]
+    },
+
+    {
+        "tag":"erp",
+        "patterns":["erp process","how to login to erp?","erp login process"],
+        "responses":["Erp is the platform where details of the student, attendance, internal marks and results are displayed, the first login to erp requires uid of the candidate and first password will be shared to the student mail id, after login with the credentials the student can change there password."]
+    }
+    
+
+  ]
+
+}
