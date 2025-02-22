@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    padding-left:22px;
+    padding-right:22px;
+}
+
+body{
+    background-image: url("C:\Users\Akshara\OneDrive\Desktop\folder\theme.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+header h1   {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+header {
+        padding: 30px;
+        background-color: #ffa500;
+    }
+main {
+        background-color: white;
+        text-align: center;
+        font-size:18px;
+    }
+.head{
+    font-weight:bold;
+    font-size:26px;
+    
+}
+.name{
+    font-size:30px;
+    font-weight:bold;
+    text-align:left;
+    text-align:center;
+}
+#para{
+    font-size:22px;
+    font-style: normal;
+    text-align:left;
+}
+.dir{
+    text-align: left;
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+}
+
+.names{
+    font-size:22px;
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+}
+
+.footer{
+    background: #333 ;
+    text-transform:capitalize;
+}
+
+.footer .box-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5rem;
+}
+
+.footer .box-container .box{
+    padding:1rem;
+   flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    font-size:2rem;
+    padding: 10px;
+    color: orange;
+}
+
+.footer .box-container .box p{
+    font-size: 1.2rem;
+    padding: .3rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.2rem;
+    padding: .3rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a:hover{
+    color: orange;
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 1rem 0rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba(255,255,255,.2);
+}
+
+.footer .credit span{
+    color: orange;
+}
+
+section{
+    padding: 8px;
+}
+
