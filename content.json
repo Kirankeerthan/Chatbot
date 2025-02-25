@@ -55,7 +55,7 @@
     {
         "tag":"principal",
         "patterns":["who is principal of loyola?","principal of loyola"],
-        "responses":["Rev.Fr.Dr.L.Joji Reddy"]
+        "responses":["Rev.Fr.Dr.N.B.Babu SJ"]
     },
 
     {
@@ -134,6 +134,21 @@
         "tag":"erp",
         "patterns":["erp process","how to login to erp?","erp login process"],
         "responses":["Erp is the platform where details of the student, attendance, internal marks and results are displayed, the first login to erp requires uid of the candidate and first password will be shared to the student mail id, after login with the credentials the student can change there password."]
+    },
+     {
+        "tag":"planet",
+        "patterns":["about planet program","what do we have in planet"],
+        "responses":["Extension Prorgramme is the third important limb of University Education along with teaching and research. The objective of this programme is to inculcate the students with spirit of social responsibility and spritual growth."]
+    },
+    {
+        "tag":"admissions",
+        "patterns":["when does admissions start","admission process in loyola"],
+        "responses":["To know about the admission process click on the following url or navigate the url:'https://loyolaacademy.edu.in/admissions/'"]
+    },
+    {
+        "tag":"timings",
+        "patterns":["what are the office timings","at what time fee counter opens","timings of administrative office"],
+        "responses":["The offices will be opened by 9:30 am and closes at 3.30 pm and lunch 1:00 pm to 2:00 pm"]
     }
     
 
